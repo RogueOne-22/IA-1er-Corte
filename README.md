@@ -1,7 +1,7 @@
 # IA-1er-Corte - Laboratorio 2
 Introduccion a IA
 
-# 🧠 Laboratorio ·2:  IA y Campo de Potenciales Artificiales
+# 🧠 IA y Campo de Potenciales Artificiales
 
 ## 📚 Librerías utilizadas
 - **NumPy**: Librería para cálculos matemáticos y operaciones con vectores/matrices. Se usa para calcular distancias, gradientes y movimientos del agente.  
