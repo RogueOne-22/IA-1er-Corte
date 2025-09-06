@@ -4,9 +4,29 @@ Introduccion a IA
 # 🧠 IA y Campo de Potenciales Artificiales
 
 ## 📚 Librerías utilizadas
-- **NumPy**: Librería para cálculos matemáticos y operaciones con vectores/matrices. Se usa para calcular distancias, gradientes y movimientos del agente.  
-- **Matplotlib**: Librería para visualización de datos. Se emplea para mostrar el campo de potencial como un mapa de contornos y animar la trayectoria del agente.  
-- **FuncAnimation (Matplotlib.animation)**: Permite crear animaciones dinámicas paso a paso, en este caso para mostrar cómo el agente se desplaza hacia el objetivo.  
+
+## 🔹 Manipulación y Procesamiento de Datos
+- **Pandas**: Librería esencial para manipular y analizar datos estructurados en DataFrames.  
+- **Polars**: Alternativa a Pandas, optimizada en **Rust**, muy rápida para grandes volúmenes de datos.  
+- **Dask**: Permite procesamiento distribuido y paralelo, ideal para datasets que no caben en memoria.  
+- **Xarray**: Diseñada para trabajar con **datos multidimensionales** (ej. datos climáticos o científicos).  
+- **GeoPandas**: Extensión de Pandas para trabajar con **datos geoespaciales**.  
+- **Intake**: Librería para **gestión y carga de datos** desde múltiples fuentes con catálogos.  
+- **Rapids (cuDF, cuML, cuGraph)**: Ecosistema de NVIDIA que acelera análisis de datos y ML con **GPU**.  
+- **DuckDB**: Motor de base de datos en memoria, pensado como el “SQLite para análisis analítico”.  
+- **Ibis**: Framework que unifica consultas en distintos motores (Pandas, DuckDB, BigQuery, etc.).  
+- **NetworkX**: Para análisis y visualización de **redes y grafos**.  
+
+---
+
+## 🔹 Visualización de Datos
+- **Matplotlib**: La librería clásica para gráficos estáticos y personalizables.  
+- **Bokeh**: Orientada a la **web**, permite gráficos interactivos en HTML/JS.  
+- **Plotly**: Visualizaciones **interactivas** de alta calidad, con soporte para dashboards.  
+- **HoloViews**: API declarativa que simplifica la visualización sobre diferentes backends.  
+- **Datashader**: Para visualizar **datasets masivos** mediante rasterización.  
+- **Streamlit**: Framework para crear **apps interactivas** de ciencia de datos de forma rápida.  
+- **.Plot() API**: Interfaz de alto nivel común en librerías de datos (Pandas, Polars, etc.) para generar gráficos básicos rápidamente (`df.plot()`).  
 
 ---
 
