@@ -42,7 +42,7 @@ result = (df
 df.to_parquet('output/', engine='pyarrow')
 ```
 
-#### 📊 **Casos de Uso Perfectos**
+#### 📊 **Casos de Uso**
 - ✅ Datasets > 1GB que no caben en memoria
 - ✅ Migrar código pandas existente a big data
 - ✅ Procesamiento en múltiples cores/máquinas
