@@ -51,7 +51,7 @@ Cada uno tiene un enfoque distinto para recorrer el grafo y encontrar un camino 
 | Algoritmo | Estructura usada | Garantiza camino más corto | Considera costos | Exploración |
 |-----------|-----------------|----------------------------|-----------------|-------------|
 | **BFS**  | Cola (FIFO)      | ✅ Sí (en grafos no ponderados) | ❌ No            | Por niveles |
-| **DFS**  | Recursión / Pila | ❌ No                      | ❌ No            | En profundidad |
+| **DFS**  | Pila | ❌ No                      | ❌ No            | En profundidad |
 | **UCS**  | Cola de prioridad| ✅ Sí (en grafos ponderados)   | ✅ Sí            | Por costo acumulado |
 
 ---
